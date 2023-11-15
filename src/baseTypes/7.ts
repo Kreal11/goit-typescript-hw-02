@@ -4,13 +4,13 @@
 */
 
 enum Day {
-  Monday,
-  Tuesday,
-  Wednesday,
-  Thursday,
-  Friday,
-  Sunday,
-  Saturday,
+  Monday = "Monday",
+  Tuesday = "Tuesday",
+  Wednesday = "Wednesday",
+  Thursday = "Thursday",
+  Friday = "Friday",
+  Sunday = "Sunday",
+  Saturday = "Saturday",
 }
 
 function isWeekend(day: Day): boolean {
