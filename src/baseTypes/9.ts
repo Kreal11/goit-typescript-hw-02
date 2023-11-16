@@ -25,7 +25,7 @@ type Uni = {
   likes: number;
   accounts: string[];
   status: "open" | "close";
-  details: {
+  details?: {
     createAt: Date;
     updateAt: Date;
   };
